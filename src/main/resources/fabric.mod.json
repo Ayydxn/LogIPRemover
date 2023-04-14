@@ -5,24 +5,24 @@
   "name": "Log IP Remover",
   "description": "A mod which removes player's public IP addresses from server logs when they join a server.",
   "authors": [
-    "ZenoHimself"
+    "KyotoHimself"
   ],
   "contact": {
-    "repo": "https://github.com/ZenoHimself/LogIPRemover"
+    "repo": "https://github.com/KyotoHimself/LogIPRemover"
   },
   "license": "LGPL-3.0",
   "icon": "assets/log-ip-remover/icon.png",
   "environment": "server",
   "entrypoints": {
     "server": [
-      "me.zenohimself.logipremover.LogIPRemoverMod"
+      "me.kyotohimself.logipremover.LogIPRemoverMod"
     ]
   },
   "mixins": [
     "log-ip-remover.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.14.18",
+    "fabricloader": ">=0.14.19",
     "fabric": "*",
     "minecraft": "1.19.4"
   }

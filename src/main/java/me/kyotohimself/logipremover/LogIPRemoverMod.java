@@ -1,6 +1,6 @@
-package me.zenohimself.logipremover;
+package me.kyotohimself.logipremover;
 
-import me.zenohimself.logipremover.config.LogIPRemoverConfig;
+import me.kyotohimself.logipremover.config.LogIPRemoverConfig;
 import net.fabricmc.api.DedicatedServerModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;

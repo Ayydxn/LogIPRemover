@@ -1,9 +1,9 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "me.zenohimself.logipremover.mixin",
+  "package": "me.kyotohimself.logipremover.mixin",
   "compatibilityLevel": "JAVA_17",
-  "mixins": [
+  "server": [
     "server.PlayerManagerMixin"
   ],
   "injectors": {
