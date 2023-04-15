@@ -10,8 +10,7 @@ import org.spongepowered.asm.mixin.injection.Redirect;
 @Mixin(PlayerManager.class)
 public abstract class PlayerManagerMixin
 {
-
-    @Redirect(at = @At(value = "INVOKE", target = "Lorg/slf4j/Logger;info(Ljava/lang/String;[Ljava/lang/Object;)V"), method = "onPlayerConnect", remap = false)
+    @Redirect(at = @At(value = "INVOKE", target = "Lorg/slf4j/Logger;info(Ljava/lang/String;[Ljava/lang/Object;)V"), method = "onPlayerConnect")
     public void removePlayerPublicIPAddressFromJoinServerLogMessage(Logger instance, String s, Object[] objects)
     {
         if (LogIPRemoverConfig.getConfigInstance().shouldHidePlayerIPs())
