@@ -1,4 +1,4 @@
-package me.kyotohimself.logipremover.config;
+package me.yoarcane.logipremover.config;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

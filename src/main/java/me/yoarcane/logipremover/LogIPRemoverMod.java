@@ -1,6 +1,6 @@
-package me.kyotohimself.logipremover;
+package me.yoarcane.logipremover;
 
-import me.kyotohimself.logipremover.config.LogIPRemoverConfig;
+import me.yoarcane.logipremover.config.LogIPRemoverConfig;
 import net.fabricmc.api.DedicatedServerModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
