@@ -1,10 +1,11 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "me.yoarcane.logipremover.mixin",
+  "package": "me.arcanewastaken.logipremover.mixin",
   "compatibilityLevel": "JAVA_17",
   "server": [
-    "server.PlayerManagerMixin"
+    "server.PlayerManagerMixin",
+    "server.ServerLoginNetworkHandlerMixin"
   ],
   "injectors": {
     "defaultRequire": 1

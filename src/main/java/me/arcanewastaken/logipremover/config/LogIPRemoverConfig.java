@@ -1,4 +1,4 @@
-package me.yoarcane.logipremover.config;
+package me.arcanewastaken.logipremover.config;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

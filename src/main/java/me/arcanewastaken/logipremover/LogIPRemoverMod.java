@@ -1,6 +1,6 @@
-package me.yoarcane.logipremover;
+package me.arcanewastaken.logipremover;
 
-import me.yoarcane.logipremover.config.LogIPRemoverConfig;
+import me.arcanewastaken.logipremover.config.LogIPRemoverConfig;
 import net.fabricmc.api.DedicatedServerModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;

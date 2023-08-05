@@ -5,19 +5,19 @@
   "name": "Log IP Remover",
   "description": "A mod which removes player's public IP addresses from server logs when they join a server.",
   "authors": [
-    "YoArcane"
+    "ArcaneWasTaken"
   ],
   "contact": {
-    "homepage": "https://github.com/YoArcane/LogIPRemover",
-    "sources": "https://github.com/YoArcane/LogIPRemover",
-    "issues": "https://github.com/YoArcane/LogIPRemover/issues"
+    "homepage": "https://github.com/ArcaneWasTaken/LogIPRemover",
+    "sources": "https://github.com/ArcaneWasTaken/LogIPRemover",
+    "issues": "https://github.com/ArcaneWasTaken/LogIPRemover/issues"
   },
   "license": "LGPL-3.0",
   "icon": "assets/log-ip-remover/icon.png",
   "environment": "server",
   "entrypoints": {
     "server": [
-      "me.yoarcane.logipremover.LogIPRemoverMod"
+      "me.arcanewastaken.logipremover.LogIPRemoverMod"
     ]
   },
   "mixins": [
@@ -25,7 +25,6 @@
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",
-    "fabric": "*",
     "minecraft": "${minecraft_version}"
   }
 }
