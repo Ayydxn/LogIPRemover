@@ -9,7 +9,7 @@ public class LogIPRemoverConfig
 {
     private static Config configurationInstance;
 
-    private static final File configurationFile = new File("./config/log-ip-remover/lop-ip-remover-config.json");
+    private static final File configurationFile = new File("./config/log-ip-remover/log-ip-remover-config.json");
 
     public static void initializeConfig()
     {
