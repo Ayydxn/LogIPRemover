@@ -1,8 +1,7 @@
-package me.arcanewastaken.logipremover.mixin.server;
+package me.ayydan.logipremover.mixin.server;
 
-import me.arcanewastaken.logipremover.config.LogIPRemoverConfig;
+import me.ayydan.logipremover.config.LogIPRemoverConfig;
 import net.minecraft.server.PlayerManager;
-import net.minecraft.text.Text;
 import org.slf4j.Logger;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;

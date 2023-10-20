@@ -1,7 +1,7 @@
-package me.arcanewastaken.logipremover.mixin.server;
+package me.ayydan.logipremover.mixin.server;
 
 import com.mojang.authlib.GameProfile;
-import me.arcanewastaken.logipremover.config.LogIPRemoverConfig;
+import me.ayydan.logipremover.config.LogIPRemoverConfig;
 import net.minecraft.network.ClientConnection;
 import net.minecraft.server.network.ServerLoginNetworkHandler;
 import org.jetbrains.annotations.Nullable;
@@ -17,7 +17,7 @@ public class ServerLoginNetworkHandlerMixin
 {
     @Shadow
     @Nullable
-    GameProfile profile;
+    private GameProfile profile;
 
     @Shadow @Final
     ClientConnection connection;
